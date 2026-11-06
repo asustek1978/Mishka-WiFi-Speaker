@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#23395d"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#17b978"/><stop offset="1" stop-color="#3adac1"/></linearGradient></defs>
+<rect width="1200" height="430" rx="26" fill="url(#bg)"/>
+<circle cx="1040" cy="75" r="165" fill="#365480" opacity=".26"/><circle cx="1195" cy="350" r="220" fill="#3f6797" opacity=".19"/>
+<g transform="translate(67 88)"><circle cx="115" cy="110" r="102" fill="#b9875a"/><circle cx="46" cy="40" r="34" fill="#b9875a"/><circle cx="184" cy="40" r="34" fill="#b9875a"/><circle cx="46" cy="40" r="18" fill="#71503f"/><circle cx="184" cy="40" r="18" fill="#71503f"/><ellipse cx="115" cy="140" rx="65" ry="48" fill="#eed4b5"/><circle cx="80" cy="103" r="10" fill="#222"/><circle cx="151" cy="103" r="10" fill="#222"/><ellipse cx="115" cy="127" rx="16" ry="12" fill="#2d2925"/><path d="M95 155 Q115 174 135 155" fill="none" stroke="#634535" stroke-width="6" stroke-linecap="round"/><path d="M25 209 Q115 270 205 209" stroke="#20c997" fill="none" stroke-width="12"/></g>
+<text x="340" y="143" fill="#fff" font-size="78" font-weight="750" font-family="Arial, sans-serif">МИШКА</text>
+<text x="345" y="195" fill="#8df2c1" font-size="27" font-family="Arial, sans-serif">Wi-Fi Speaker  •  ESP32-S3  •  Home Assistant</text>
+<text x="345" y="263" fill="#e8eef7" font-size="26" font-family="Arial, sans-serif">Интернет-радио  ·  Локальное слово активации</text>
+<text x="345" y="302" fill="#e8eef7" font-size="26" font-family="Arial, sans-serif">Голосовое управление  ·  RGB-индикация</text>
+<rect x="344" y="337" width="445" height="43" rx="21" fill="url(#g)"/>
+<text x="370" y="365" fill="#132c2e" font-size="21" font-weight="700" font-family="Arial, sans-serif">Firmware 0.5.8.23.1    ·    HA 0.5.9.4</text>
+</svg>
