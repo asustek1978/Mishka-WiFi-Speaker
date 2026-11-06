@@ -4,7 +4,7 @@
 
 **Локальное голосовое управление Home Assistant и интернет-радио на ESP32-S3**
 
-![Архитектура Мишки](docs/images/mishka-banner.svg)
+[![Мишка — Wi-Fi Speaker](docs/images/mishka-banner.svg)](docs/images/mishka-banner.svg)
 
 **Прошивка:** `v0.5.8.23.1` · **Интеграция Home Assistant:** `v0.5.9.4` · **ESP-IDF:** `5.5.6`
 
@@ -40,6 +40,12 @@ Home Assistant Assist (STT → intent → TTS)
         ▼
 ESP32-S3: ES8311 → динамик → восстановление радио
 ```
+
+## Фотографии и материалы проекта
+
+Ниже будут опубликованы реальные изображения платы Waveshare ESP32-S3 AUDIO и проекта «Мишка». Фотографии откроются в полном размере при нажатии.
+
+![Аппаратная платформа](docs/images/assist-flow.svg)
 
 ## Аппаратная платформа
 
