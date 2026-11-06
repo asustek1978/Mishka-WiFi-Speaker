@@ -4,7 +4,7 @@
 
 **Локальное голосовое управление Home Assistant и интернет-радио на ESP32-S3**
 
-[![Мишка — Wi-Fi Speaker](docs/images/mishka-banner.svg)](docs/images/mishka-banner.svg)
+[![Мишка — Wi-Fi Speaker](docs/images/mishka-main.png)](docs/images/mishka-main.png)
 
 **Прошивка:** `v0.5.8.23.1` · **Интеграция Home Assistant:** `v0.5.9.4` · **ESP-IDF:** `5.5.6`
 
