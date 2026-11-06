@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<style>text{font-family:Arial,sans-serif}.box{fill:#17324c;stroke:#39bbab;stroke-width:2}.title{font-size:26px;fill:white;font-weight:bold}.sub{font-size:17px;fill:#c4dce8}.arrow{stroke:#39bbab;stroke-width:5;fill:none}</style>
+<rect width="1200" height="380" rx="24" fill="#101b2c"/>
+<text x="54" y="59" fill="#fff" font-size="33" font-weight="bold">Голосовой конвейер «Мишки»</text>
+<g><rect class="box" x="40" y="117" width="250" height="175" rx="20"/><text class="title" x="65" y="168">ESP32-S3 AUDIO</text><text class="sub" x="65" y="208">ES7210 → PCM</text><text class="sub" x="65" y="240">microWakeWord</text><text class="sub" x="65" y="270">«Мишка»</text></g>
+<path class="arrow" d="M290 205 H370"/><path d="M354 195 L371 205 L354 215" fill="#39bbab"/><text x="300" y="185" fill="#aaddd6" font-size="15">WebSocket</text>
+<g><rect class="box" x="370" y="117" width="440" height="175" rx="20"/><text class="title" x="414" y="168">Home Assistant Assist</text><text class="sub" x="419" y="211">STT → управление домом → TTS</text><text class="sub" x="419" y="247">Локальный голосовой конвейер</text></g>
+<path class="arrow" d="M810 205 H880"/><path d="M864 195 L881 205 L864 215" fill="#39bbab"/><text x="811" y="185" fill="#aaddd6" font-size="15">MP3</text>
+<g><rect class="box" x="880" y="117" width="280" height="175" rx="20"/><text class="title" x="920" y="168">ES8311</text><text class="sub" x="915" y="208">Звуковой ответ</text><text class="sub" x="915" y="241">Возобновление радио</text></g>
+<text x="56" y="340" font-size="19" fill="#a0becd">WS2812: зелёный → фиолетовый → зелёный → прежний эффект</text>
+</svg>
