@@ -1,0 +1,24 @@
+# ESP-IDF build and machine-local configuration
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+.vscode/
+.idea/
+*.bin
+*.elf
+*.map
+*.log
+*.bak
+*.hbk
+*.key
+*.pem
+*.crt
+.env
+.env.*
+secrets.yaml
+ip_bans.yaml
+.nvs*
+__pycache__/
+*.pyc
+.DS_Store
