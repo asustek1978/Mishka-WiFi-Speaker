@@ -14,6 +14,21 @@
 
 «Мишка» — самостоятельная Wi-Fi-колонка на плате **Waveshare ESP32-S3 AUDIO**, которая умеет воспроизводить интернет-радио, локально обнаруживать ключевое слово **«Мишка»** через модель microWakeWord/TensorFlow Lite Micro и выполнять голосовые команды через **Home Assistant Assist**. Распознавание команды и синтез речи выполняет настроенный конвейер Home Assistant; обнаружение ключевого слова работает на самом ESP32-S3.
 
+## 📸 Фотографии колонки
+
+Нажмите на фотографию, чтобы открыть её в полном размере.
+
+<table>
+<tr>
+<td width="50%" align="center"><a href="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif"><img src="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif" alt="Мишка — фотография колонки 1" width="380"></a></td>
+<td width="50%" align="center"><a href="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif"><img src="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif" alt="Мишка — фотография колонки 2" width="380"></a></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif"><img src="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif" alt="Мишка — фотография колонки 3" width="380"></a></td>
+<td width="50%" align="center"><a href="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif"><img src="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif" alt="Мишка — фотография колонки 4" width="380"></a></td>
+</tr>
+</table>
+
 ## Возможности
 
 - 🎙️ Локальное обнаружение слова **«Мишка»**, аппаратный микрофон ES7210, кнопка BOOT (GPIO0) для выключения микрофона
