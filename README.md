@@ -21,9 +21,9 @@
 <table>
 <tr>
 <td width="25%" align="center" valign="middle"><a href="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif"><img src="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif" alt="Мишка — фотография №1" width="170"></a></td>
-<td width="25%" align="center" valign="middle"><a href="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif"><img src="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif" alt="Мишка — фотография №2" width="170"></a></td>
 <td width="25%" align="center" valign="middle"><a href="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif"><img src="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif" alt="Мишка — фотография №3" width="170"></a></td>
 <td width="25%" align="center" valign="middle"><a href="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif"><img src="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif" alt="Мишка — фотография №4" width="170"></a></td>
+<td width="25%" align="center" valign="middle"><a href="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif"><img src="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif" alt="Мишка — фотография №2" width="170"></a></td>
 </tr>
 </table>
 
