@@ -6,16 +6,19 @@
 - Home Assistant с настроенным голосовым конвейером Assist (STT и TTS).
 - MQTT-брокер, доступный ESP32 и Home Assistant.
 
-## 2. Сборка прошивки
+## 2. Получение исходников и сборка прошивки
+Скачай [архив исходников ветки main](https://github.com/asustek1978/Mishka-WiFi-Speaker/archive/refs/heads/main.zip), распакуй его и открой терминал ESP-IDF в корне распакованного проекта. Либо клонируй репозиторий через `git clone https://github.com/asustek1978/Mishka-WiFi-Speaker.git`. Далее выполни:
 ```powershell
 cd firmware
 idf.py set-target esp32s3
 idf.py build
-idf.py -p COM11 flash monitor
+idf.py -p COM_PORT flash monitor
 ```
-Укажи свой COM-порт. Первая установка через USB; для дальнейших обновлений используй веб-панель OTA.
+Замени `COM_PORT` на порт своей платы (например, `COM5` в Windows или `/dev/ttyACM0` в Linux). Первая установка через USB; для дальнейших обновлений используй веб-панель OTA.
 
 Параметры аппаратной платформы: ES7210 (RX GPIO15), ES8311 (TX GPIO16), общие BCLK GPIO13 и WS GPIO14, WS2812 GPIO38. **Не меняй общие BCLK/WS без пересмотра всей I²S-архитектуры.**
+
+**Важно:** это сборка из исходников, не установка готового бинарного Release. Не добавляй свои пароли и токены в публичный репозиторий.
 
 ## 3. Wi-Fi, MQTT и Assist
 Открой веб-интерфейс устройства по полученному IP и укажи Wi-Fi, MQTT и параметры Assist. Для WebSocket используется `ws://<HA-IP>:8123/api/websocket`. Долгосрочный токен HA вводится только в локальном веб-интерфейсе Мишки; не помещай его в исходники, issues, скриншоты или логи.
