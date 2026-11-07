@@ -1,0 +1,27 @@
+name: Gallery preview
+on:
+  push:
+    paths:
+      - '.github/workflows/gallery-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  convert-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Convert AVIF to PNG for visual verification
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libavif-bin
+          mkdir -p gallery-preview
+          for image in docs/images/*.avif; do
+            name="$(basename "$image" .avif)"
+            avifdec "$image" "gallery-preview/${name}.png"
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gallery-preview
+          path: gallery-preview/*.png
+          retention-days: 1
