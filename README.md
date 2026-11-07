@@ -20,10 +20,10 @@
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif"><img src="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif" alt="Мишка — фотография колонки 1" width="170"></a></td>
-<td width="25%" align="center" valign="middle"><a href="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif"><img src="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif" alt="Мишка — фотография колонки 2" width="170"></a></td>
-<td width="25%" align="center" valign="middle"><a href="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif"><img src="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif" alt="Мишка — фотография колонки 3" width="170"></a></td>
-<td width="25%" align="center" valign="middle"><a href="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif"><img src="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif" alt="Мишка — фотография колонки 4" width="170"></a></td>
+<td width="25%" align="center" valign="middle"><a href="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif"><img src="docs/images/Seae9b2c167cb4592a22e2ff9cfd27f0av.avif" alt="Мишка — фотография №1" width="170"></a></td>
+<td width="25%" align="center" valign="middle"><a href="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif"><img src="docs/images/S8b4f34b0f96b420cbf8c59553665b08eK.avif" alt="Мишка — фотография №2" width="170"></a></td>
+<td width="25%" align="center" valign="middle"><a href="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif"><img src="docs/images/Sd177cb42480a4c7ca99f6aa46a5666a1l.avif" alt="Мишка — фотография №3" width="170"></a></td>
+<td width="25%" align="center" valign="middle"><a href="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif"><img src="docs/images/S3a7f0f825cf04901bc27f7c5ad1ce963F.avif" alt="Мишка — фотография №4" width="170"></a></td>
 </tr>
 </table>
 
@@ -99,7 +99,7 @@ ESP32-S3: ES8311 → динамик → восстановление радио
 - [Скачать исходники проекта ZIP](https://github.com/asustek1978/Mishka-WiFi-Speaker/archive/refs/heads/main.zip) — архив актуальной ветки `main`, **не готовый прошивочный BIN**.
 - [История версий и заметки о выпуске](docs/RELEASE_NOTES_RU.md).
 
-**Важно:** выпуск GitHub Release с готовыми бинарными файлами пока не опубликован. Прошивку можно собрать из исходников по инструкции.
+**Релиз:** [v0.5.8.23.1](https://github.com/asustek1978/Mishka-WiFi-Speaker/releases/tag/v0.5.8.23.1) опубликован. В нём доступны исходники, но готовый BIN-файл прошивки пока не приложен. Прошивку можно собрать по инструкции.
 
 ## Состав проекта
 
