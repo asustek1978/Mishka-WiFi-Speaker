@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mishka Wi-Fi Speaker",
+        "description": "Подключение колонки ESP-IDF через уже настроенную интеграцию MQTT Home Assistant.",
+        "data": {"base_topic": "Базовый топик MQTT"}
+      }
+    },
+    "error": {"invalid_topic": "Укажите топик MQTT без пробелов и символов + или #"},
+    "abort": {"already_configured": "Эта колонка уже настроена"}
+  }
+}

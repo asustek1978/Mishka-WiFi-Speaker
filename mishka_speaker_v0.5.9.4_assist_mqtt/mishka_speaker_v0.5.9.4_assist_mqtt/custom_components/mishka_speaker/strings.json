@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mishka Wi-Fi Speaker",
+        "description": "Connect the ESP-IDF speaker through the existing Home Assistant MQTT integration.",
+        "data": {"base_topic": "MQTT base topic"}
+      }
+    },
+    "error": {"invalid_topic": "Enter a valid MQTT topic without wildcards or spaces"},
+    "abort": {"already_configured": "This speaker is already configured"}
+  }
+}
